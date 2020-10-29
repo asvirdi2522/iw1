@@ -392,8 +392,26 @@ html {
 /* blog-end */
 
 
+a.opa:link
+{
+    color: #000;
+}
+
+a.opa:visited
+{
+    color: #000;
+}
 
 
+a.opa:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+a.opa:active
+{
+    color: #000;
+}
 
 
 
