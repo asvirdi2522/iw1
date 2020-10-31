@@ -118,7 +118,7 @@ html {
 
 /* What-we-do-ends */
 
-.project{
+/*.project{
     min-height: 100vh;
     padding: 8vh 0;
     display: flex;
@@ -158,6 +158,10 @@ html {
     .project{
         min-height: 80vh;
     }
+}*/
+a.projectlink:hover
+{
+    text-decoration: none;
 }
 
 /* Project-end */
@@ -597,3 +601,23 @@ a.opa:active
       to { transform: rotate(360deg); }
   }
 
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 25px;
+    width: 25px;
+    outline: black;
+    background-color: black;
+    /*background-size: 100%, 100%;*/
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.sc-imgtitle
+{
+    font-weight: 100;
+    font-family: 'Actor';
+}
+
+a.but:hover
+{
+    text-decoration: none;
+}

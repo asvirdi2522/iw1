@@ -65,3 +65,19 @@
     color: #1187D1;
     transform: scale(1.2);
 }
+
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #f1f1f1;
+  }
+  @media screen and (max-width:780px)
+  {
+      .unselectable
+      {
+          display: none;
+      }
+  }

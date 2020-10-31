@@ -14,7 +14,7 @@
     background-color: white;
     padding: 1rem;
     box-shadow: 1px 1px 1px 1px #c6c6c6;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
 }
 .fa-bars{
     color: #fff;
@@ -73,6 +73,11 @@
         display: flex;
         justify-content: flex-end;
     }
+}
+.nav-item
+{
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 /* nav-ends */
@@ -133,3 +138,6 @@
     }
  }
 
+a{
+    color: #808080;
+}
