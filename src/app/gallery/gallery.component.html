@@ -1,8 +1,8 @@
 <div class="main" style="background-color: black;">
-    <img src="assets/img/logo.png" style="height: 150px;width: 150px;position: absolute;top: 40%;left: 50%;transform: translate(-50%, -50%)">
+    <img class="p" src="assets/img/logo.png">
     <img src="https://wallpapercave.com/wp/wp2998716.jpg" style="width: 100%;height: 100vh;opacity: 10%;position: relative;">
-    <h1 style="color: white;position: absolute;top: 60%;left: 50%;transform: translate(-50%, -50%);font-size: 5vw;text-align: center;">IW Student Chapters</h1><br>
-    <button routerLink="/home" routerLinkActive="active" style="background-color: #1187D1;border-style: none;color: white;position: absolute;top: 80%;left: 50%;transform: translate(-50%, -50%);padding: 10px 20px 10px 20px;border-radius: 30px;">Home</button>
+    <h1 class="ptit">IW Student Chapters</h1><br>
+    <button routerLink="/home" routerLinkActive="active" style="background-color: #1187D1;border-style: none;color: white;position: absolute;top: 90%;left: 50%;transform: translate(-50%, -50%);padding: 10px 20px 10px 20px;border-radius: 30px;">Home</button>
 </div>
 <div class="container">
     <h3 style="text-align: center;margin-top: 2rem;">SRM Chapter</h3>
@@ -218,3 +218,43 @@
 
 
 
+<style>
+.p
+{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ptit
+{
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+        text-align: center;
+        font-weight: 800;
+        width: 100%;
+        background: linear-gradient(to bottom,#fff 35%,#4e6773 100%);
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(35%,#fff),to(#4e6773));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+@media screen and (max-width: 440px)
+{
+    .ptit
+    {
+        font-weight: 200;
+        font-size: 3rem;
+        top: 70%;
+    }
+    .p
+    {
+        top: 40%;
+    }
+}
+</style>

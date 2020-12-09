@@ -189,7 +189,22 @@ a.projectlink:hover
     font-size: 1.6rem;
     margin-top: 15px;
 }
-
+.scph
+{
+    height: 380px;
+    width: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 420px)
+{
+    .scph
+    {
+        height: 250px;
+        width: 250px;
+    }
+} 
 /* Student-chapter-ends */
 
 .mentors{
@@ -620,4 +635,22 @@ a.opa:active
 a.but:hover
 {
     text-decoration: none;
+}
+
+.embedly-card
+{
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 440px)
+{
+    .embedly-card
+    {
+        max-width: 250px;
+    }
 }
