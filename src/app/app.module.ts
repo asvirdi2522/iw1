@@ -16,6 +16,7 @@ import { HeroComponent } from './home/hero/hero.component';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { GalleryComponent } from './gallery/gallery.component';
+import { GalComponent } from './gal/gal.component';
 
 export function playerFactory() {
   return player;
@@ -29,6 +30,7 @@ export function playerFactory() {
     HomeComponent,
     HeroComponent,
     GalleryComponent,
+    GalComponent,
   ],
   imports: [
     BrowserModule,
