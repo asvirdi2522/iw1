@@ -191,18 +191,19 @@ a.projectlink:hover
 }
 .scph
 {
-    height: 380px;
-    width: 380px;
+    height: 361px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 30px;
 }
 @media screen and (max-width: 420px)
 {
     .scph
     {
-        height: 250px;
-        width: 250px;
+        height: 271px;
+        width: 300px;
     }
 } 
 /* Student-chapter-ends */
