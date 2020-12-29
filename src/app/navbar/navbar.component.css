@@ -318,3 +318,17 @@ a.juiw:hover
     text-decoration: none;
     color: black;
 }
+a.joinus:hover
+{
+    color: white;
+    text-decoration: none;
+}
+a.joinus:active
+{
+    color: white;
+    text-decoration: none;
+}
+a.joinus:visited
+{
+    color: white;
+}
